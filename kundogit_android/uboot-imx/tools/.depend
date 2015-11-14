@@ -1,0 +1,395 @@
+env_embedded.o: \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/common/env_embedded.c \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config_cmd_defaults.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config_defaults.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/configs/tx6q.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/asm/sizes.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config_cmd_default.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/asm/config.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config_fallbacks.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config_uncmd_spl.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/environment.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/compiler.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/wchar.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/byteswap.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/env_attr.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/env_callback.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/env_flags.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/linker_lists.h \
+ /usr/include/search.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/linux/stringify.h
+image.o: \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/common/image.c \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/mkimage.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/os_support.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/compiler.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/wchar.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/byteswap.h /usr/include/sys/stat.h /usr/include/bits/stat.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/sha1.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/fdt_host.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/fdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/libfdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/libfdt_env.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/compiler.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/fdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/fdt_support.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/u-boot/md5.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/image.h \
+ /usr/include/asm/byteorder.h \
+ /usr/include/linux/byteorder/little_endian.h /usr/include/linux/types.h \
+ /usr/include/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
+ /usr/include/asm/posix_types_32.h /usr/include/linux/swab.h \
+ /usr/include/asm/swab.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/libfdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/fdt_support.h
+crc32.o: \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/lib/crc32.c \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/compiler.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/wchar.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/byteswap.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/u-boot/crc.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/u-boot/zlib.h
+md5.o: \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/lib/md5.c \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/compiler.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/wchar.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/byteswap.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/u-boot/md5.h
+sha1.o: \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/lib/sha1.c \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h \
+ /usr/include/xlocale.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/watchdog.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/sha1.h
+bmp_logo.o: \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/bmp_logo.c \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/compiler.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/wchar.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/byteswap.h
+envcrc.o: \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/envcrc.c \
+ /usr/include/errno.h /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdio.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/string.h /usr/include/xlocale.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config_cmd_defaults.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config_defaults.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/configs/tx6q.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/asm/sizes.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config_cmd_default.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/asm/config.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config_fallbacks.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config_uncmd_spl.h
+gen_eth_addr.o: \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/gen_eth_addr.c \
+ /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/xlocale.h
+img2srec.o: \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/img2srec.c \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/os_support.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/compiler.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/wchar.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/byteswap.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdbool.h /usr/include/ctype.h \
+ /usr/include/elf.h /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h
+fdt.o: \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/lib/libfdt/fdt.c \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/libfdt_env.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/compiler.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/wchar.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/byteswap.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/fdt_host.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/fdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/libfdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/fdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/fdt_support.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/lib/libfdt/libfdt_internal.h
+fdt_ro.o: \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/lib/libfdt/fdt_ro.c \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/libfdt_env.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/compiler.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/wchar.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/byteswap.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/fdt_host.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/fdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/libfdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/fdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/fdt_support.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/lib/libfdt/libfdt_internal.h
+fdt_rw.o: \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/lib/libfdt/fdt_rw.c \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/libfdt_env.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/compiler.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/wchar.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/byteswap.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/fdt_host.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/fdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/libfdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/fdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/fdt_support.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/lib/libfdt/libfdt_internal.h
+fdt_strerror.o: \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/lib/libfdt/fdt_strerror.c \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/libfdt_env.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/compiler.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/wchar.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/byteswap.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/fdt_host.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/fdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/libfdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/fdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/fdt_support.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/lib/libfdt/libfdt_internal.h
+fdt_wip.o: \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/lib/libfdt/fdt_wip.c \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/libfdt_env.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/compiler.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/wchar.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/byteswap.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/fdt_host.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/fdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/libfdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/fdt.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/tools/../include/fdt_support.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/lib/libfdt/libfdt_internal.h

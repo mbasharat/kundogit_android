@@ -1,0 +1,20 @@
+linux_string.o: linux_string.c \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/linux/ctype.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/linux/string.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/linux/types.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/linux/config.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/linux/posix_types.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/linux/stddef.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/asm/posix_types.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/asm/types.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/asm/string.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config_cmd_defaults.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config_defaults.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/configs/tx6q.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/asm/sizes.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config_cmd_default.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/asm/config.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config_fallbacks.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/config_uncmd_spl.h \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/linux/linux_string.h

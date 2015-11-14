@@ -1,0 +1,2 @@
+ctype.o: ctype.c \
+ /media/projekte/130405-tx6-Android-bsp/work/kc/myandroid/bootable/bootloader/uboot-imx/include/linux/ctype.h
